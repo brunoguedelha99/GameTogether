@@ -6,7 +6,11 @@ public class GameTogether {
 
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        Jogador Criador = new Jogador();
+        Criador.nome="Lisboa";
+        Criador.idade=22;
+        Criador.nome="Bruno";
+
     }
     
 }
