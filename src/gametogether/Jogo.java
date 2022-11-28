@@ -1,6 +1,5 @@
 package gametogether;
 
-import java.util.ArrayList;
 import java.util.Date;
 
 public class Jogo {
@@ -8,7 +7,6 @@ public class Jogo {
     String local;
     String HoraDeJogo;
     Date DataDeJogo;
-    ArrayList<Jogador> jogadores;
 
     public String getNome() {
         return nome;
@@ -41,12 +39,7 @@ public class Jogo {
     public void setDataDeJogo(Date DataDeJogo) {
         this.DataDeJogo = DataDeJogo;
     }
-
-    public ArrayList<Jogador> getJogadores() {
-        return jogadores;
-    }
-
-    public void add(Jogador player){
-        jogadores.add(player);
-    }
+    
+    
+    
 }

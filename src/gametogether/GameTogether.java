@@ -6,8 +6,10 @@ public class GameTogether {
 
 
     public static void main(String[] args) {
-        Jogador Criador = new Jogador("Bruno",22,"Lisboa","brunoguedelha@gmail.com","password");
-        System.out.println(Criador.toString());
+        Jogador Criador = new Jogador();
+        Criador.nome="Lisboa";
+        Criador.idade=22;
+        Criador.nome="Bruno";
 
     }
     
