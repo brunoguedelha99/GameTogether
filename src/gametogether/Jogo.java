@@ -49,7 +49,5 @@ public class Jogo {
     public void add(Jogador player){
         jogadores.add(player);
     }
-    
-    
-    
+     
 }
