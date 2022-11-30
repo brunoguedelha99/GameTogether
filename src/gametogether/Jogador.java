@@ -6,6 +6,14 @@ public class Jogador {
     private String morada;
     private String email;
     private String password;
+    
+    public Jogador(String nome, int idade, String morada, String email, String password) {
+        this.nome = nome;
+        this.idade = idade;
+        this.morada = morada;
+        this.email = email;
+        this.password = password;
+    }
 
     public String getNome() {
         return nome;
