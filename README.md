@@ -2,7 +2,7 @@
 
 Uma aplicação que junta jogares.
 
-A app permitirá a criação de "jogos" que iram juntar jogadores.
+A app permitirá a criação de "jogos" que irão juntar jogadores.
 
 Os jogos terão um nome, local onde irá ser o jogo, hora do jogo e data do jogo.
 
